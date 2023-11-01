@@ -17,7 +17,7 @@ form{
 
 form > div {
     display: flex;
-    gap: 4px;
+    margin-top: 56px;
 }
 div.frases{
     font-family: Arial, Helvetica, sans-serif;
@@ -29,12 +29,12 @@ div.frases{
     font-family: Arial, Helvetica, sans-serif;
     border: 5px solid blueviolet;
     border-radius: 24px;
+    margin-top: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 120px;
     width: 80%;
-    margin-top: 50px;
     margin-left: 120px;
 
 }
@@ -42,7 +42,11 @@ div.frases{
 .todasFrases {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 400px;
+    justify-content: cenyter;
+    height: 300px;
     width: 100%;
+}
+
+.tipoDeFrase {
+    margin-top: 112px;;
 }
